@@ -3,6 +3,7 @@
 body{
 	font-family: 'PT Sans', sans-serif;
 	color: white;
+	
 }
 
 #banner{
@@ -20,10 +21,17 @@ max-width: 825px;
 }
 .titulocont {
 	font-size: 3rem;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 .titulocont .subtit{
+	font-size: 1rem;
+	font-weight: 100;
+
+}
+
+#navbar.titulosnav{
+
 	font-size: 1rem;
 	font-weight: 100;
 }
@@ -36,4 +44,18 @@ max-width: 825px;
 
 .black{
 	color: black;
+}
+
+
+
+@media (min-width:768px ){
+#myslide .carousel-control-next-icon, #myslide .carousel-control-prev-icon  {
+	width: 6rem;
+	height: 6rem;
+}
+}
+
+#navbar a:hover {
+	color: #0d6efd;
+
 }
